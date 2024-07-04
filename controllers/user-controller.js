@@ -28,7 +28,6 @@ module.exports = {
           const user = await User.create(req.body);
           res.json(user);
         } catch (err) {
-          console.log(err);
           return res.status(500).json(err);
         }
     },

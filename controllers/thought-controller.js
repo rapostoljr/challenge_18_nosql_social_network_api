@@ -51,7 +51,6 @@ module.exports = {
           }    
           res.json({ message: 'Thought deleted successfully' });
         } catch (err) {
-          console.log(err);
           res.status(500).json(err);
         }
       },
