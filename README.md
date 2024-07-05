@@ -22,4 +22,4 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## VIEWING MY PROJECT
 Link to GitHub: <i> https://github.com/rapostoljr/challenge_18_nosql_social_network_api.git </i>\
-Video link: <i> ENTER VIDEO LINK HERE </i>
+Video link: <i> https://drive.google.com/file/d/1R-Z9uvtEVsTTRA8s5Dosc83-Ls1OyUo7/view </i>

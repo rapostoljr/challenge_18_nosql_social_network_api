@@ -66,8 +66,6 @@ module.exports = {
   },
   // Adds a friend to a user
   async addFriend(req, res) {
-    console.log('You are adding a friend');
-    console.log(req.body);
 
     try {
       const user = await User.findOneAndUpdate(
@@ -89,7 +87,6 @@ module.exports = {
   },
   // Removes friend from a user
   async removeFriend(req, res) {
-    console.log('You are removing a friend');
 
     try {
       const user = await User.findOneAndUpdate(
